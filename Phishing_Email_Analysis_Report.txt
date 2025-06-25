@@ -1,0 +1,74 @@
+Phishing Email Analysis Report
+?? Email Summary
+Field
+Value
+Subject
+Important: Verify Your Account to Avoid Suspension
+From
+support@paypa1.com (spoofed PayPal)
+To
+your.email@example.com
+Date
+June 24, 2025
+Return Path
+support@paypal.com (spoofed)
+Domain IP
+192.168.1.100 (fake, private IP)
+?? Phishing Indicators Found
+Indicator Type
+Evidence from Email
+?? Spoofed Sender
+Uses paypa1.com instead of paypal.com (number “1” instead of letter “l”)
+?? Suspicious Domain/IP
+Email originated from malicious-site.xyz, not an official PayPal server
+? Failed SPF Check
+Sender IP not authorized by paypal.com, indicating spoofing
+? Urgent Language
+"Failure to verify… will result in temporary suspension" creates pressure
+?? Suspicious Link
+"Click here to verify" likely points to phishing site (actual URL not shown, but implied threat)
+?? Missing Headers
+Message-ID, Subject, From headers missing or malformed
+?? Obfuscated Brand Name
+Uses “paypa1.com” (digit 1) to impersonate PayPal
+?? Generic Greeting
+“Dear Valued Customer” — real companies typically use your name
+?? Expiration Pressure
+“This link will expire in 24 hours” — classic phishing tactic
+?? Fake Support Address
+support@paypa1.com is not associated with PayPal
+?? Email Body Excerpt
+"We noticed some unusual activity… verify your account… or face suspension."
+
+This uses scare tactics to prompt immediate action and encourages clicking a potentially dangerous link under urgency.
+? Conclusion
+This email is a confirmed phishing attempt. It attempts to steal user credentials by impersonating PayPal, using:
+- A spoofed email address,
+- Urgent and threatening language,
+- A fake verification link,
+- And evasion techniques (missing headers, misleading domain).
+
+
+Here i attached the email
+
+
+
+Subject: Important: Verify Your Account to Avoid Suspension
+From: support@paypa1.com
+To: your.email@example.com
+Date: June 24, 2025
+
+Dear Valued Customer,
+
+We noticed some unusual activity in your account. To ensure your account security, we need you to confirm your information. Failure to verify your account will result in temporary suspension.
+
+Click here to verify your account: Verify Now
+
+For your security, this link will expire in 24 hours.
+
+If you have any questions, please contact our support team at support@paypa1.com.
+
+Thank you for choosing PayPal.
+
+Sincerely,
+The PayPal Team
