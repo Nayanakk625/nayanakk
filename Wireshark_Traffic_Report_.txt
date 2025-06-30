@@ -1,0 +1,64 @@
+
+Wireshark Traffic Analysis Report
+
+Capture Summary:
+- Total Packets: 3,066
+- Capture Size: 1,186,650 bytes
+- Capture Overview: The data includes traffic using IPv6, IPv4, TCP, UDP, and several application-layer protocols like DNS and HTTP.
+
+Protocol Breakdown:
+1. Ethernet (100%):
+   - All captured packets fall under Ethernet, representing the data link layer.
+
+2. Internet Protocol Version 6 (IPv6) (66.3%):
+   - Packets: 2,032
+   - Data Volume: 81,280 bytes
+   - Observations: A significant portion of the traffic uses IPv6, reflecting modern network usage.
+
+3. Internet Protocol Version 4 (IPv4) (33.7%):
+   - Packets: 1,032
+   - Data Volume: 20,640 bytes
+   - Observations: Legacy IPv4 traffic is also present.
+
+Transport Layer Protocols:
+1. User Datagram Protocol (UDP):
+   - IPv6 UDP: 31.4% of packets (964 packets).
+   - IPv4 UDP: 6% of packets (183 packets).
+   - Observations: UDP traffic is primarily used for DNS queries and other lightweight protocols.
+
+2. Transmission Control Protocol (TCP):
+   - IPv6 TCP: 34.6% of packets (1,062 packets).
+   - IPv4 TCP: 27.4% of packets (841 packets).
+   - Observations: TCP traffic includes secure protocols like HTTPS and HTTP.
+
+Application Layer Protocols:
+1. DNS (Domain Name System):
+   - IPv6 DNS: 0.5% (14 packets).
+   - IPv4 DNS: 5.3% (161 packets).
+   - Observations: DNS traffic indicates frequent domain name resolution, possibly from web browsing.
+
+2. HTTP and HTTPS:
+   - HTTP: 0.1% (4 packets).
+   - HTTPS (over TLS): 12.9% (394 packets).
+   - Observations: HTTPS dominates, showing a trend toward secure web communication.
+
+3. Other Protocols:
+   - ICMP (Ping): Minimal traffic (<0.3%).
+   - QUIC IETF: 30.7% of packets (942 packets), likely used for fast, secure communications such as Google services.
+
+Key Insights:
+1. Protocol Usage:
+   - IPv6 is more prevalent than IPv4, reflecting modern network adoption.
+   - Secure protocols like HTTPS and QUIC dominate the traffic.
+
+2. DNS Activity:
+   - DNS queries indicate active domain name resolution, likely from web browsing or applications.
+
+3. Low HTTP Traffic:
+   - Minimal unencrypted HTTP traffic suggests a secure network environment.
+
+Observations:
+- The captured data shows a balanced usage of IPv4 and IPv6, with IPv6 being slightly more prominent.
+- Secure protocols such as HTTPS and QUIC make up a significant part of the traffic, indicating a focus on secure communication.
+- The presence of DNS traffic aligns with active browsing and application usage.
+- Minimal unencrypted HTTP traffic suggests the network has a strong emphasis on secure communications.
