@@ -1,0 +1,28 @@
+Browser Used: Google Chorme
+Total Extentions Installed: 6
+Safe Extensions Retained
+1. McAfee® WebAdvisor
+2. Browser Lock
+3. QR Code Generator
+4. Tactiq:AI note taken for Google Meet,Zoom,MS  Teams
+
+Suspicious Extensions Retained
+ 1 Extension Identified: Outrun Offline Game
+-   Issues: Anonymous developer, mixed reviews, some reports of redirection.
+-   Action Taken: Removed to reduce potential risk.
+-   Reason: Not essential, potential unwanted behavior, no security benefit.
+
+2. Extension Identified: Weather Please
+- Issues:
+  • Excessive permissions (can read/change data on all websites)
+  • Reports of browser hijacking (redirecting search engine)
+  • Unknown developer, not verified
+  • Poor user reviews (1-star ratings citing malware behavior)
+ - Action Taken:
+* Removed the extension immediately.
+* Restarted the browser to clear session.
+* Checked default search engine and homepage settings to ensure no changes persisted.
+-Reason: The developer is not verified or trustworthy.
+
+Conclusion:
+Two potentially harmful extensions were removed. System performance and security improved post-removal.
