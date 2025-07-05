@@ -1,0 +1,71 @@
+
+VPN Practical Report: Privacy and Secure Communication
+
+Objective:
+To understand the role of VPNs in protecting privacy and enabling secure communication through the use of a free VPN client.
+
+Tools Used:
+- VPN Client: ProtonVPN (Free Tier)
+- Operating System: Windows 11
+- IP Checking Tool: https://whatismyipaddress.com
+
+Step-by-Step Procedure:
+
+1. Chose VPN Service:
+   - Selected ProtonVPN for its strong reputation and available free tier.
+
+2. Installation:
+   - Signed up at https://protonvpn.com
+   - Downloaded and installed the ProtonVPN Windows app.
+
+3. Connected to VPN Server:
+   - Used the “Quick Connect” feature which automatically selected a Netherlands free server (NL-FREE#20).
+   - Protocol used: WireGuard (UDP)
+
+4. Verified IP Address:
+   - Before VPN: IP showed location in India.
+   - After VPN: IP changed to 185.132.178.121 (Netherlands, Zuid-Holland).
+   - Verified using https://whatismyipaddress.com
+
+5. Tested Encrypted Traffic:
+   - Browsed websites like Wikipedia and ProtonMail.
+   - Verified secure HTTPS connections.
+
+6. Disconnected VPN:
+   - IP address reverted to the original location.
+   - Browsing speed improved slightly after disconnect.
+
+7. Researched VPN Encryption:
+   - ProtonVPN uses AES-256 encryption with WireGuard/OpenVPN protocols.
+   - Strong no-log policy and secure server architecture.
+
+8. Summary: VPN Benefits and Limitations
+
+Benefits:
+- Encrypts traffic and secures data from hackers.
+- Hides the real IP address and location.
+- Enables access to restricted or geo-blocked websites.
+- Protects privacy on public Wi-Fi.
+
+Limitations:
+- Free tier has limited server switching and slower speeds.
+- Cannot manually choose a country/server.
+- Some websites may block VPN IPs.
+
+Connection Screenshots:
+- Screenshot 1: ProtonVPN client connected to Netherlands free server.
+- Screenshot 2: IP check result showing location as Naaldwijk, Netherlands.
+
+Outcome:
+VPN connection was successful. Traffic was encrypted, IP address was masked, and privacy was preserved. The task demonstrates the real-world application of VPNs in cybersecurity.
+
+VPN Connection Status Summary:
+
+[Connected to ProtonVPN – Netherlands #3]
+Status: Connected
+Your IP: 185.132.178.121
+Location: Naaldwijk, Zuid-Holland, Netherlands
+Duration: 00:01:32
+Protocol: WireGuard (UDP)
+Server Load: 80%
+Traffic Used: 3.9 MB
